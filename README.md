@@ -47,16 +47,21 @@ $ source ~/.bashrc
 $ roslaunch bebop_simulator bebop_without_controller.launch
 ```
 ## Trouble
-```
+
 # No python found
+```
 $ sudo apt install python
-
+```
 # libQt5Core.so.5 hatası için
+```
 $ whereis libQt5Core.so.5
+```
 # çıktısını alttaki konuma yapıştır.
+```
 $ sudo strip --remove-section=.note.ABI-tag /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
-
+```
 # too many symbolic links hatası
+```
 $ rm ./src/BebopS/BebopS
 ```
 
