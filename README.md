@@ -35,7 +35,12 @@ $ rosdep update
 $ catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release -DCATKIN_ENABLE_TESTING=False
 $ catkin build
 ```
+## Before start simulation source the workspace
 
+```
+$ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+$ source ~/.bashrc
+```
 ## To start simulation 
 
 ```
